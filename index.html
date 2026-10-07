@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Watch Before It's Removed</title>
+    <meta name="description" content="Stanford doctor exposes what has been suppressing men's performance for 30 years — and the horse-breeding secret that reverses it.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Watch Before It's Removed — Stanford Doctor's Suppressed Discovery">
+    <meta property="og:description" content="This video has been taken down 14 times. Watch it now while it's still available.">
+    <meta property="og:image" content="https://i.ibb.co/SXZhFTgd/Chat-GPT-Image-14-de-set-de-2026-17-46-35.png">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Watch Before It's Removed">
+    <meta name="twitter:description" content="This video has been taken down 14 times. Watch it now.">
+    <meta name="twitter:image" content="https://i.ibb.co/SXZhFTgd/Chat-GPT-Image-14-de-set-de-2026-17-46-35.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;0,900;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ─── Design Tokens ─── */
+        :root {
+            --bg:         #0d0a0a;
+            --surface:    #191111;
+            --border:     #2c1f1f;
+            --text-hi:    #f2eeeb;
+            --text-mid:   #b5aaa5;
+            --text-lo:    #6a5f5c;
+            --red:        #c4000b;
+            --red-hover:  #df000d;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text-hi);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ─── Alert Bar ─── */
+        .alert-bar {
+            background: var(--red);
+            color: #fff;
+            text-align: center;
+            padding: 11px 20px;
+            font-size: 11.5px;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+
+        /* ─── Page Wrapper ─── */
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding-block: 56px 72px;
+            padding-inline: 20px;
+        }
+
+        /* ─── Eyebrow ─── */
+        .eyebrow {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 22px;
+        }
+
+        .eyebrow-rule {
+            flex: 1;
+            max-width: 56px;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .eyebrow-text {
+            font-size: 10.5px;
+            font-weight: 600;
+            letter-spacing: 2.2px;
+            text-transform: uppercase;
+            color: var(--red);
+        }
+
+        /* ─── Headline ─── */
+        .headline {
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            font-size: clamp(28px, 6.5vw, 48px);
+            font-weight: 900;
+            line-height: 1.17;
+            color: var(--text-hi);
+            text-align: center;
+            text-wrap: balance;
+            margin-bottom: 46px;
+            letter-spacing: -0.5px;
+        }
+
+        .headline .strike {
+            color: var(--red);
+            font-style: italic;
+        }
+
+        /* ─── Thumbnail ─── */
+        .thumb-wrap {
+            display: block;
+            position: relative;
+            width: 100%;
+            margin: 0 auto 14px;
+            border-radius: 3px;
+            overflow: hidden;
+            text-decoration: none;
+            box-shadow:
+                0 0 0 1px var(--border),
+                0 16px 64px rgba(196, 0, 11, 0.18),
+                0 4px 20px rgba(0, 0, 0, 0.55);
+        }
+
+        .thumb-wrap img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .thumb-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.22s ease;
+        }
+
+        .thumb-wrap:hover .thumb-overlay {
+            background: rgba(0, 0, 0, 0.28);
+        }
+
+        /* Play button */
+        .play-circle {
+            width: 78px;
+            height: 78px;
+            border-radius: 50%;
+            background: rgba(196, 0, 11, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow:
+                0 0 0 7px rgba(196, 0, 11, 0.16),
+                0 6px 28px rgba(0, 0, 0, 0.55);
+            transition: transform 0.22s ease, box-shadow 0.22s ease;
+        }
+
+        .thumb-wrap:hover .play-circle {
+            transform: scale(1.08);
+            box-shadow:
+                0 0 0 12px rgba(196, 0, 11, 0.12),
+                0 8px 36px rgba(0, 0, 0, 0.65);
+        }
+
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-top: 13px solid transparent;
+            border-bottom: 13px solid transparent;
+            border-left: 23px solid #fff;
+            margin-left: 5px;
+        }
+
+        /* Caption under thumbnail */
+        .thumb-caption {
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-lo);
+            letter-spacing: 0.6px;
+            margin-bottom: 36px;
+        }
+
+        /* ─── CTA Button ─── */
+        @keyframes pulse-red {
+            0%   { box-shadow: 0 0 0 0 rgba(196, 0, 11, 0.72); }
+            65%  { box-shadow: 0 0 0 20px rgba(196, 0, 11, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(196, 0, 11, 0); }
+        }
+
+        .cta-btn {
+            display: block;
+            width: 100%;
+            max-width: 580px;
+            margin: 0 auto 52px;
+            padding: 20px 28px;
+            background: var(--red);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(14px, 3.3vw, 17px);
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 3px;
+            letter-spacing: 0.3px;
+            line-height: 1.35;
+            animation: pulse-red 2s ease-in-out infinite;
+            transition: background 0.18s ease;
+        }
+
+        .cta-btn:hover {
+            background: var(--red-hover);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cta-btn { animation: none; }
+        }
+
+        /* ─── Section Label ─── */
+        .section-label {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 34px;
+        }
+
+        .section-label hr {
+            flex: 1;
+            border: none;
+            border-top: 1px solid var(--border);
+        }
+
+        .section-label span {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--text-lo);
+            white-space: nowrap;
+        }
+
+        /* ─── Body Copy ─── */
+        .body-copy {
+            max-width: 660px;
+            margin: 0 auto;
+        }
+
+        .body-copy p {
+            font-size: clamp(15px, 2.8vw, 17px);
+            line-height: 1.82;
+            color: var(--text-mid);
+            margin-bottom: 28px;
+        }
+
+        .body-copy p:last-child {
+            margin-bottom: 44px;
+        }
+
+        .body-copy strong {
+            color: var(--text-hi);
+            font-weight: 600;
+        }
+
+        /* ─── Footer ─── */
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 30px;
+            margin-top: 8px;
+        }
+
+        .disclaimer {
+            font-size: 11px;
+            line-height: 1.75;
+            color: var(--text-lo);
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="alert-bar">
+        ⚠ &nbsp;&nbsp; Warning — This video has been removed 14 times. It may disappear again without notice.
+    </div>
+
+    <main class="page">
+
+        <!-- Eyebrow -->
+        <div class="eyebrow">
+            <div class="eyebrow-rule"></div>
+            <span class="eyebrow-text">Stanford Medical Research &mdash; Suppressed Discovery</span>
+            <div class="eyebrow-rule"></div>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="headline">
+            This Video Has Already Been<br>
+            <span class="strike">Taken Down 14 Times.</span><br>
+            Watch It Before It Disappears Again
+        </h1>
+
+        <!-- Thumbnail with play button -->
+        <a href="https://sodapeak.com/spk-pv-buy-aff-l1/?aff_id=2870"
+           class="thumb-wrap"
+           rel="noopener noreferrer">
+            <img
+                src="https://i.ibb.co/SXZhFTgd/Chat-GPT-Image-14-de-set-de-2026-17-46-35.png"
+                alt="Watch the free presentation before it is removed"
+                width="680"
+                height="383"
+            >
+            <div class="thumb-overlay">
+                <div class="play-circle">
+                    <div class="play-triangle"></div>
+                </div>
+            </div>
+        </a>
+        <p class="thumb-caption">Click image to watch the free presentation &nbsp;&#9656;</p>
+
+        <!-- CTA Button 1 -->
+        <a href="https://sodapeak.com/spk-pv-buy-aff-l1/?aff_id=2870"
+           class="cta-btn"
+           rel="noopener noreferrer">
+            &#9654;&nbsp;&nbsp; WATCH THE FREE VIDEO NOW &mdash; Before It&rsquo;s Removed Again
+        </a>
+
+        <!-- Section divider -->
+        <div class="section-label">
+            <hr>
+            <span>Why This Matters</span>
+            <hr>
+        </div>
+
+        <!-- Body text -->
+        <div class="body-copy">
+            <p>If you&rsquo;re a man over 40 who&rsquo;s noticed things slowly changing in the bedroom &mdash; less intensity, harder to get there, or a size that doesn&rsquo;t seem like it used to &mdash; what you&rsquo;re about to watch isn&rsquo;t what you think it is. It&rsquo;s not about low testosterone. It&rsquo;s not about age. And it has nothing to do with stress. A Stanford-trained doctor just uncovered the real reason why this happens to almost every American man &mdash; and it starts with something hiding in your food right now.</p>
+
+            <p>What he found &mdash; buried in 73 suppressed studies and a 1998 internal memo from one of the world&rsquo;s biggest corporations &mdash; is that a toxic compound has been silently hardening the tissue inside you since you were a child. <strong>The independent science on this has been funded for 30 years by the very people who profit when your body doesn&rsquo;t work.</strong> That&rsquo;s why no doctor has ever told you about this. Not because the solution doesn&rsquo;t exist &mdash; but because a man who fixes himself for good stops paying monthly for pills that only treat the surface.</p>
+
+            <p>The answer didn&rsquo;t come from a lab. It came from the world of elite horse breeding &mdash; a $30 million secret that stud farm owners have passed hand to hand for decades to keep their stallions performing at full power well past the age when they should have stopped. And the most fascinating part? That same secret can be prepared in a simple bottle, right in your own kitchen, in about 30 seconds.</p>
+
+            <p>In the video below, the doctor explains exactly what it is, how it works inside your body, and how 3,000 men used it to reverse decades of damage in just 30 days. <strong>This video has been taken down 14 times already. Watch it while it&rsquo;s still here.</strong></p>
+        </div>
+
+        <!-- CTA Button 2 -->
+        <a href="https://sodapeak.com/spk-pv-buy-aff-l1/?aff_id=2870"
+           class="cta-btn"
+           rel="noopener noreferrer">
+            &#9654;&nbsp;&nbsp; WATCH THE FREE VIDEO NOW &mdash; Before It&rsquo;s Removed Again
+        </a>
+
+        <!-- Footer -->
+        <footer>
+            <p class="disclaimer">
+                This page is an independent review and pre-sell page. Individual results may vary.
+                These statements have not been evaluated by the Food and Drug Administration.
+                This product is not intended to diagnose, treat, cure, or prevent any disease.
+                Always consult a qualified healthcare professional before starting any supplement program.
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
